@@ -70,7 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cache\CacheProvider.cs" />
-    <Compile Include="Logs\Logger.cs" />
+    <Compile Include="Logs\LoggerProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
