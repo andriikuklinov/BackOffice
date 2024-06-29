@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Common", "WPF.Common\WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.UI.Common", "BackOffice.UI.Common\BackOffice.UI.Common.csproj", "{252F99C6-26FC-4D0B-9CBD-7E3DFAF66529}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Theme.Base", "BackOffice.Theme.Base\BackOffice.Theme.Base.csproj", "{B5258D29-7E6F-405F-8085-B90C638BA5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Theme.Main", "BackOffice.Theme.Main\BackOffice.Theme.Main.csproj", "{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{252F99C6-26FC-4D0B-9CBD-7E3DFAF66529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{252F99C6-26FC-4D0B-9CBD-7E3DFAF66529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{252F99C6-26FC-4D0B-9CBD-7E3DFAF66529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5258D29-7E6F-405F-8085-B90C638BA5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5258D29-7E6F-405F-8085-B90C638BA5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5258D29-7E6F-405F-8085-B90C638BA5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5258D29-7E6F-405F-8085-B90C638BA5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +87,8 @@ Global
 		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8} = {9508C844-FD52-467B-ABD5-DF7AA728CF79}
 		{284E6555-348F-47E6-9CAB-8F6BE27469DF} = {8510857B-1B73-4070-A229-CF40CA4B3ACA}
 		{252F99C6-26FC-4D0B-9CBD-7E3DFAF66529} = {71DD80ED-81AE-462B-B6C0-C2CE51D020F4}
+		{B5258D29-7E6F-405F-8085-B90C638BA5A3} = {8B361038-50EB-4267-9D22-66EDDF1545E2}
+		{AE8CE72C-0BE4-44F7-A0EE-3996BB06AA70} = {8B361038-50EB-4267-9D22-66EDDF1545E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27475409-6072-474D-8D38-EE63A32EEB3F}

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate x:Key="MainWindowAppIcon">
+        <Image SnapsToDevicePixels="True" Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality" 
+           Width="108" Height="33" Margin="20 15 0 16" VerticalAlignment="Center"
+           Source="/BackOffice.Theme.Main;Component/Images/Windows 7.5 128x128.png"/>
+    </ControlTemplate>
+</ResourceDictionary>

@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/BackOffice.UI.Common;component/View/DataTemplates.xaml" />
                 <ResourceDictionary Source="/BackOffice.Theme.Base;component/BackOffice.Theme.Base.xaml" />
+                <ResourceDictionary Source="/BackOffice.Theme.Main;component/BackOffice.Theme.Main.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

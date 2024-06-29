@@ -5,15 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BackOffice.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Back Office" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Style="{StaticResource CustomWindowStyle}"
+        Icon="/Images/Windows 7.5.ico">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Height="20" Width="40" Grid.Column="0" Command="{Binding HomeCommand}">Click</Button>
-        <Grid Grid.Column="1">
+        <Button Height="20" Width="40" Grid.Column="0" Grid.Row="1" Command="{Binding HomeCommand}">Click</Button>
+        <Grid Grid.Column="1" Grid.Row="1">
             <ContentControl x:Name="Pages" Content="{Binding CurrentView}"/>
         </Grid>
+        <StatusBar Grid.ColumnSpan="2" Grid.Row="2" Height="24">
+            <TextBlock Margin="3,0,0,0">Complete</TextBlock>
+            <StatusBarItem HorizontalAlignment="Right">
+                <ResizeGrip Opacity="0.75" />
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Window>
