@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Height="20" Width="40" Grid.Column="0" Command="{Binding HomeCommand}">Click</Button>
+        <Grid Grid.Column="1">
+            <ContentControl x:Name="Pages" Content="{Binding CurrentView}"/>
+        </Grid>
     </Grid>
 </Window>
