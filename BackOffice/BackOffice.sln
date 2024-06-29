@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{9508C844-FD52-467B-ABD5-DF7AA728CF79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theme", "Theme", "{8B361038-50EB-4267-9D22-66EDDF1545E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{8510857B-1B73-4070-A229-CF40CA4B3ACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{71DD80ED-81AE-462B-B6C0-C2CE51D020F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{3D262075-587B-47CC-BA3E-1F45334EA942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Common", "BackOffice.Common\BackOffice.Common.csproj", "{FB8A7A7A-A208-48B0-BE23-502A7CE9F385}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{98F904EC-2765-4D16-A96C-2B2A4FADED50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Common.Tests", "BackOffice.Common.Tests\BackOffice.Common.Tests.csproj", "{B8DFCCC6-5020-4A50-971F-510868763A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Core", "BackOffice.Core\BackOffice.Core.csproj", "{0CF2A043-F736-4598-B6A0-C7C680AD7592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Domain", "BackOffice.Domain\BackOffice.Domain.csproj", "{A79707A5-E2A9-4A10-B41B-CB4A7147A282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8A7A7A-A208-48B0-BE23-502A7CE9F385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8A7A7A-A208-48B0-BE23-502A7CE9F385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8A7A7A-A208-48B0-BE23-502A7CE9F385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8A7A7A-A208-48B0-BE23-502A7CE9F385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DFCCC6-5020-4A50-971F-510868763A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DFCCC6-5020-4A50-971F-510868763A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DFCCC6-5020-4A50-971F-510868763A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DFCCC6-5020-4A50-971F-510868763A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF2A043-F736-4598-B6A0-C7C680AD7592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF2A043-F736-4598-B6A0-C7C680AD7592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF2A043-F736-4598-B6A0-C7C680AD7592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF2A043-F736-4598-B6A0-C7C680AD7592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB8A7A7A-A208-48B0-BE23-502A7CE9F385} = {3D262075-587B-47CC-BA3E-1F45334EA942}
+		{B8DFCCC6-5020-4A50-971F-510868763A80} = {98F904EC-2765-4D16-A96C-2B2A4FADED50}
+		{0CF2A043-F736-4598-B6A0-C7C680AD7592} = {3D262075-587B-47CC-BA3E-1F45334EA942}
+		{A79707A5-E2A9-4A10-B41B-CB4A7147A282} = {3D262075-587B-47CC-BA3E-1F45334EA942}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27475409-6072-474D-8D38-EE63A32EEB3F}
+	EndGlobalSection
+EndGlobal
