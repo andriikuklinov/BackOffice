@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BackOffice.UI"
         mc:Ignorable="d"
-        Title="Back Office" Height="450" Width="800"
+        Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         AllowsTransparency="True"
         Style="{StaticResource CustomWindowStyle}"
-        Icon="/Images/Windows 7.5.ico">
+        Icon="/Images/backoffice.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

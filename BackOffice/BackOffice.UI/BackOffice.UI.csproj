@@ -113,5 +113,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backoffice.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backoffice_logo_48px.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backoffice_logo_72px.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
