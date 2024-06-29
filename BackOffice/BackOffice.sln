@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Core", "BackOffi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Domain", "BackOffice.Domain\BackOffice.Domain.csproj", "{A79707A5-E2A9-4A10-B41B-CB4A7147A282}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.UI", "BackOffice.UI\BackOffice.UI.csproj", "{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A79707A5-E2A9-4A10-B41B-CB4A7147A282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{B8DFCCC6-5020-4A50-971F-510868763A80} = {98F904EC-2765-4D16-A96C-2B2A4FADED50}
 		{0CF2A043-F736-4598-B6A0-C7C680AD7592} = {3D262075-587B-47CC-BA3E-1F45334EA942}
 		{A79707A5-E2A9-4A10-B41B-CB4A7147A282} = {3D262075-587B-47CC-BA3E-1F45334EA942}
+		{6B622BF7-D1B2-4CAE-BBEB-FEFE1CC929D8} = {71DD80ED-81AE-462B-B6C0-C2CE51D020F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27475409-6072-474D-8D38-EE63A32EEB3F}
