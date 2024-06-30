@@ -15,9 +15,15 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <ContentPresenter Grid.Row="0" Content="{Binding LogoContent, ElementName=navigation}"/>
         <navbtn:NavigationButton Grid.Row="1" Content="Home" IconPath="{StaticResource HomeNavigationIcon}" />
+        <navbtn:NavigationButton Grid.Row="2" Content="Client" IconPath="{StaticResource UserNavigationIcon}" />
+        <navbtn:NavigationButton Grid.Row="3" Content="Product" IconPath="{StaticResource ProductNavigationIcon}" />
+        <navbtn:NavigationButton Grid.Row="4" Content="Order" IconPath="{StaticResource OrderNavigationIcon}" />
+        <navbtn:NavigationButton Grid.Row="5" Content="Calendar" IconPath="{StaticResource CalendarNavigationIcon}" />
+        <navbtn:NavigationButton Grid.Row="6" Content="Logout" IconPath="{StaticResource LogoutNavigationIcon}" />
     </Grid>
 </UserControl>
