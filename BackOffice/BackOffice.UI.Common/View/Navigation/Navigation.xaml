@@ -10,13 +10,13 @@
              Style="{StaticResource Navigation}">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <ContentPresenter Grid.Row="0" Content="{Binding LogoContent, ElementName=navigation}"/>
         <navbtn:NavigationButton Grid.Row="1" Content="Home" IconPath="{StaticResource HomeNavigationIcon}" />

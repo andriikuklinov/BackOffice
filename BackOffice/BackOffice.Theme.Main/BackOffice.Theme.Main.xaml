@@ -21,6 +21,7 @@
     
     <!--#region Navigation-->
     <Style x:Key="Navigation" TargetType="{x:Type UserControl}">
+        <Setter Property="Height" Value="Auto"/>
         <Setter Property="Background" Value="{StaticResource NavigationBackground}"/>
     </Style>
     <!--#endregion-->
