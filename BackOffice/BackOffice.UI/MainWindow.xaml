@@ -24,7 +24,7 @@
             <ColumnDefinition Width="170"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <navigation:Navigation x:Name="Navigation" Grid.Column="0" Grid.RowSpan="3">
+        <navigation:Navigation x:Name="Navigation" Grid.Column="0" Grid.RowSpan="2">
             <navigation:Navigation.LogoContent>
                 <ContentControl Template="{StaticResource MainWindowAppIcon}" />
             </navigation:Navigation.LogoContent>

@@ -6,24 +6,26 @@
              xmlns:local="clr-namespace:BackOffice.UI.Common.View.Navigation" 
              xmlns:navbtn="clr-namespace:WPF.Common.Controls.NavigationButton;assembly=WPF.Common"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="200"
+             d:DesignWidth="200"
              Style="{StaticResource Navigation}">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <ContentPresenter Grid.Row="0" Content="{Binding LogoContent, ElementName=navigation}"/>
-        <navbtn:NavigationButton Grid.Row="1" Content="Home" IconPath="{StaticResource HomeNavigationIcon}" />
-        <navbtn:NavigationButton Grid.Row="2" Content="Client" IconPath="{StaticResource UserNavigationIcon}" />
-        <navbtn:NavigationButton Grid.Row="3" Content="Product" IconPath="{StaticResource ProductNavigationIcon}" />
-        <navbtn:NavigationButton Grid.Row="4" Content="Order" IconPath="{StaticResource OrderNavigationIcon}" />
-        <navbtn:NavigationButton Grid.Row="5" Content="Calendar" IconPath="{StaticResource CalendarNavigationIcon}" />
-        <navbtn:NavigationButton Grid.Row="6" Content="Logout" IconPath="{StaticResource LogoutNavigationIcon}" />
-    </Grid>
+    <DockPanel VerticalAlignment="Stretch">
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ContentPresenter Grid.Row="0" Margin="-25 0 0 50" Content="{Binding LogoContent, ElementName=navigation}"/>
+            <Separator Grid.Row="0" Margin="0 10 0 0"/>
+            <navbtn:NavigationButton Grid.Row="1" Content="Home" IconPath="{StaticResource HomeNavigationIcon}" />
+            <navbtn:NavigationButton Grid.Row="2" Content="Client" IconPath="{StaticResource UserNavigationIcon}" />
+            <navbtn:NavigationButton Grid.Row="3" Content="Product" IconPath="{StaticResource ProductNavigationIcon}" />
+            <navbtn:NavigationButton Grid.Row="4" Content="Order" IconPath="{StaticResource OrderNavigationIcon}" />
+            <navbtn:NavigationButton Grid.Row="5" Content="Calendar" IconPath="{StaticResource CalendarNavigationIcon}" />
+        </Grid>
+        <navbtn:NavigationButton Margin="0 0 0 10" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Content="Logout" IconPath="{StaticResource LogoutNavigationIcon}"/>
+    </DockPanel>
 </UserControl>
