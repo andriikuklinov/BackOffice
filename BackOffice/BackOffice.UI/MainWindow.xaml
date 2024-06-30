@@ -3,7 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BackOffice.UI"
+        xmlns:System="clr-namespace:System;assembly=System"
+        xmlns:local="clr-namespace:BackOffice.UI" 
+        xmlns:navigation="clr-namespace:BackOffice.UI.Common.View.Navigation;assembly=BackOffice.UI.Common"
         mc:Ignorable="d"
         Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
@@ -11,6 +13,7 @@
         AllowsTransparency="True"
         Style="{StaticResource CustomWindowStyle}"
         Icon="/Images/backoffice.ico">
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -18,10 +21,14 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="170"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Height="20" Width="40" Grid.Column="0" Grid.Row="1" Command="{Binding HomeCommand}">Click</Button>
+        <navigation:Navigation x:Name="Navigation" Grid.Column="0" Grid.RowSpan="3">
+            <navigation:Navigation.LogoContent>
+                <ContentControl Template="{StaticResource MainWindowAppIcon}" />
+            </navigation:Navigation.LogoContent>
+        </navigation:Navigation>
         <Grid Grid.Column="1" Grid.Row="1">
             <ContentControl x:Name="Pages" Content="{Binding CurrentView}"/>
         </Grid>
