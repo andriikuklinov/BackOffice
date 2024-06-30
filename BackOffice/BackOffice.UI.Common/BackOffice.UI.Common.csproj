@@ -95,6 +95,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BackOffice.Theme.Base\BackOffice.Theme.Base.csproj">
+      <Project>{b5258d29-7e6f-405f-8085-b90c638ba5a3}</Project>
+      <Name>BackOffice.Theme.Base</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WPF.Common\WPF.Common.csproj">
       <Project>{284e6555-348f-47e6-9cab-8f6be27469df}</Project>
       <Name>WPF.Common</Name>

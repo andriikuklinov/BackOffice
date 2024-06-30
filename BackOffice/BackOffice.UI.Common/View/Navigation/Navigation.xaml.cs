@@ -25,6 +25,8 @@ namespace BackOffice.UI.Common.View.Navigation
             InitializeComponent();
         }
 
+        public static readonly DependencyProperty LogoContentProperty = DependencyProperty.Register("LogoContent", 
+            typeof(object), typeof(Navigation), new PropertyMetadata(null));
         public object LogoContent
         {
             get { return (object)GetValue(LogoContentProperty); }
@@ -33,8 +35,5 @@ namespace BackOffice.UI.Common.View.Navigation
                 SetValue(LogoContentProperty, value);
             }
         }
-
-        public static readonly DependencyProperty LogoContentProperty = DependencyProperty.Register("LogoContent", 
-            typeof(object), typeof(Navigation), new PropertyMetadata(null));
     }
 }

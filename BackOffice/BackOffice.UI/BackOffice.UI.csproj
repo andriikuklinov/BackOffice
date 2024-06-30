@@ -122,5 +122,12 @@
   <ItemGroup>
     <Resource Include="Images\backoffice_logo_72px.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\home.svg" />
+    <Content Include="Images\calendar.svg" />
+    <Content Include="Images\chat.svg" />
+    <Content Include="Images\phone.svg" />
+    <Content Include="Images\user.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
